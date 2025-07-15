@@ -40,7 +40,7 @@ namespace supplier_management
 
             // Sidebar Panel
             sidebar = new Guna2Panel();
-            sidebar.FillColor = Color.FromArgb(23, 33, 43);
+            sidebar.FillColor = Color.FromArgb(23, 330, 430);
             sidebar.Size = new Size(220, this.Height);
             sidebar.Dock = DockStyle.Left;
             this.Controls.Add(sidebar);
