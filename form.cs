@@ -70,7 +70,21 @@ namespace supplier_management
                 y += 45;
             }
 
-           
+            // Header Panel
+            header = new Guna2Panel();
+            header.FillColor = Color.White;
+            header.Height = 100;
+            header.Dock = DockStyle.Top;
+            header.BorderColor = Color.LightGray;
+            header.BorderThickness = 1;
+            this.Controls.Add(header);
+
+            titleLabel = new Label();
+            titleLabel.Text = "User Management";
+            titleLabel.Font = new Font("Segoe UI", 18, FontStyle.Bold);
+            titleLabel.Location = new Point(240, 20);
+            titleLabel.ForeColor = Color.Black;
+            header.Controls.Add(titleLabel);
 
             // Action Buttons (Right-Aligned)
             int buttonTop = 50;
